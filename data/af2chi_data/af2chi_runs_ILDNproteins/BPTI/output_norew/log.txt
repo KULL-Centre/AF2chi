@@ -1,0 +1,28 @@
+2025-01-06 12:05:41,241 Running colabfold 1.5.5 (fdf3b235b88746681c46ea12bcded76ecf8e1f76)
+2025-01-06 12:05:43,378 Running on GPU
+2025-01-06 12:05:43,859 Found 5 citations for tools or databases
+2025-01-06 12:05:44,096 Query 1/1: btpi (length 58)
+2025-01-06 12:05:44,309 Sequence 0 found templates: ['5pti_A']
+2025-01-06 12:06:12,542 alphafold2_ptm_model_1_seed_000 recycle=0 pLDDT=94.5 pTM=0.748
+2025-01-06 12:06:26,896 alphafold2_ptm_model_1_seed_000 recycle=1 pLDDT=94.7 pTM=0.746 tol=0.168
+2025-01-06 12:06:27,164 alphafold2_ptm_model_1_seed_000 recycle=2 pLDDT=94.6 pTM=0.75 tol=0.0622
+2025-01-06 12:06:27,432 alphafold2_ptm_model_1_seed_000 recycle=3 pLDDT=94.7 pTM=0.749 tol=0.0222
+2025-01-06 12:06:27,432 alphafold2_ptm_model_1_seed_000 took 37.0s (3 recycles)
+2025-01-06 12:06:27,748 alphafold2_ptm_model_2_seed_000 recycle=0 pLDDT=95.8 pTM=0.787
+2025-01-06 12:06:28,022 alphafold2_ptm_model_2_seed_000 recycle=1 pLDDT=95.7 pTM=0.785 tol=0.145
+2025-01-06 12:06:28,286 alphafold2_ptm_model_2_seed_000 recycle=2 pLDDT=95.5 pTM=0.784 tol=0.0347
+2025-01-06 12:06:28,557 alphafold2_ptm_model_2_seed_000 recycle=3 pLDDT=94.9 pTM=0.784 tol=0.0734
+2025-01-06 12:06:28,557 alphafold2_ptm_model_2_seed_000 took 1.1s (3 recycles)
+2025-01-06 12:06:28,571 reranking models by 'plddt' metric
+2025-01-06 12:06:28,571 rank_001_alphafold2_ptm_model_2_seed_000 pLDDT=94.9 pTM=0.784
+2025-01-06 12:06:28,574 rank_002_alphafold2_ptm_model_1_seed_000 pLDDT=94.7 pTM=0.749
+2025-01-06 12:06:28,576 returning backbones and angles for sidechain prediction for best model: model rank_001_alphafold2_ptm_model_2_seed_000
+2025-01-06 12:06:28,576 Saving sidechain rawdata data for btpi : btpi_norew/btpi_rank_001_sc_*.npy
+2025-01-06 12:06:28,585 Running sidechain populations prediction for btpi
+2025-01-06 12:06:28,593 Predicting sidechain populations for btpi chi=chi1
+2025-01-06 12:06:37,456 Predicting sidechain populations for btpi chi=chi2
+2025-01-06 12:06:43,759 Saving sidechain populations data for btpi: btpi_norew/btpi_rank_001_sc_pops_*.npz
+2025-01-06 12:06:43,773 Creating PDB ensemble with sidechain predictions for btpi
+2025-01-06 12:06:45,053 Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+2025-01-06 12:11:14,753 Ensemble creation complete -  100 structures - acceptance rate: 99.00990099009901% - total_tentatives: 101
+2025-01-06 12:11:15,196 Done

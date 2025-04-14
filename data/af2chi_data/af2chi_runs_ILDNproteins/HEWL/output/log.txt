@@ -1,0 +1,30 @@
+2024-10-18 16:48:16,829 Running colabfold 1.5.5 (fdf3b235b88746681c46ea12bcded76ecf8e1f76)
+2024-10-18 16:48:19,492 Running on GPU
+2024-10-18 16:48:20,043 Found 5 citations for tools or databases
+2024-10-18 16:48:20,115 Query 1/1: 6LYT_1_Chain_A_HEN_EGG_WHITE_LYSOZYME_Gallus_gallus__9031_ (length 129)
+2024-10-18 16:48:20,418 Sequence 0 found templates: ['6lyt_A']
+2024-10-18 16:48:51,425 alphafold2_ptm_model_1_seed_000 recycle=0 pLDDT=97.3 pTM=0.885
+2024-10-18 16:49:07,999 alphafold2_ptm_model_1_seed_000 recycle=1 pLDDT=97.6 pTM=0.892 tol=0.0605
+2024-10-18 16:49:08,621 alphafold2_ptm_model_1_seed_000 recycle=2 pLDDT=97.6 pTM=0.891 tol=0.0335
+2024-10-18 16:49:09,245 alphafold2_ptm_model_1_seed_000 recycle=3 pLDDT=97.7 pTM=0.892 tol=0.0272
+2024-10-18 16:49:09,245 alphafold2_ptm_model_1_seed_000 took 42.8s (3 recycles)
+2024-10-18 16:49:09,911 alphafold2_ptm_model_2_seed_000 recycle=0 pLDDT=97.7 pTM=0.898
+2024-10-18 16:49:10,539 alphafold2_ptm_model_2_seed_000 recycle=1 pLDDT=98 pTM=0.902 tol=0.0613
+2024-10-18 16:49:11,165 alphafold2_ptm_model_2_seed_000 recycle=2 pLDDT=98 pTM=0.903 tol=0.0169
+2024-10-18 16:49:11,791 alphafold2_ptm_model_2_seed_000 recycle=3 pLDDT=98 pTM=0.902 tol=0.0106
+2024-10-18 16:49:11,791 alphafold2_ptm_model_2_seed_000 took 2.5s (3 recycles)
+2024-10-18 16:49:11,821 reranking models by 'plddt' metric
+2024-10-18 16:49:11,821 rank_001_alphafold2_ptm_model_2_seed_000 pLDDT=98 pTM=0.902
+2024-10-18 16:49:11,823 rank_002_alphafold2_ptm_model_1_seed_000 pLDDT=97.7 pTM=0.892
+2024-10-18 16:49:11,825 returning backbones and angles for sidechain prediction for best model: model rank_001_alphafold2_ptm_model_2_seed_000
+2024-10-18 16:49:11,825 Saving sidechain rawdata data for 6LYT_1_Chain_A_HEN_EGG_WHITE_LYSOZYME_Gallus_gallus__9031_ : output/6LYT_1_Chain_A_HEN_EGG_WHITE_LYSOZYME_Gallus_gallus__9031__rank_001_sc_*.npy
+2024-10-18 16:49:11,834 Running sidechain populations prediction for 6LYT_1_Chain_A_HEN_EGG_WHITE_LYSOZYME_Gallus_gallus__9031_
+2024-10-18 16:49:11,842 Predicting sidechain populations for 6LYT_1_Chain_A_HEN_EGG_WHITE_LYSOZYME_Gallus_gallus__9031_ chi=chi1
+2024-10-18 16:49:34,309 Predicting sidechain populations for 6LYT_1_Chain_A_HEN_EGG_WHITE_LYSOZYME_Gallus_gallus__9031_ chi=chi2
+2024-10-18 16:49:46,834 Predicting sidechain populations for 6LYT_1_Chain_A_HEN_EGG_WHITE_LYSOZYME_Gallus_gallus__9031_ chi=chi3
+2024-10-18 16:49:52,120 Predicting sidechain populations for 6LYT_1_Chain_A_HEN_EGG_WHITE_LYSOZYME_Gallus_gallus__9031_ chi=chi4
+2024-10-18 16:49:58,808 Saving sidechain populations data for 6LYT_1_Chain_A_HEN_EGG_WHITE_LYSOZYME_Gallus_gallus__9031_: output/6LYT_1_Chain_A_HEN_EGG_WHITE_LYSOZYME_Gallus_gallus__9031__rank_001_sc_pops_*.npz
+2024-10-18 16:49:58,835 Creating PDB ensemble with sidechain predictions for 6LYT_1_Chain_A_HEN_EGG_WHITE_LYSOZYME_Gallus_gallus__9031_
+2024-10-18 16:50:00,651 Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+2024-10-18 16:58:44,904 Ensemble creation complete -  100 structures - acceptance rate: 98.0392156862745% - total_tentatives: 102
+2024-10-18 16:58:45,375 Done

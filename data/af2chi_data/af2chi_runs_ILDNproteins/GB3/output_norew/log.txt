@@ -1,0 +1,28 @@
+2025-01-06 15:03:52,342 Running colabfold 1.5.5 (fdf3b235b88746681c46ea12bcded76ecf8e1f76)
+2025-01-06 15:03:57,426 Running on GPU
+2025-01-06 15:03:58,031 Found 5 citations for tools or databases
+2025-01-06 15:03:58,196 Query 1/1: gb3 (length 56)
+2025-01-06 15:03:58,396 Sequence 0 found templates: ['1p7e_A']
+2025-01-06 15:04:22,103 alphafold2_ptm_model_1_seed_000 recycle=0 pLDDT=95.1 pTM=0.754
+2025-01-06 15:04:33,904 alphafold2_ptm_model_1_seed_000 recycle=1 pLDDT=95.4 pTM=0.758 tol=0.0739
+2025-01-06 15:04:34,154 alphafold2_ptm_model_1_seed_000 recycle=2 pLDDT=95.4 pTM=0.757 tol=0.0626
+2025-01-06 15:04:34,405 alphafold2_ptm_model_1_seed_000 recycle=3 pLDDT=95.6 pTM=0.763 tol=0.0328
+2025-01-06 15:04:34,405 alphafold2_ptm_model_1_seed_000 took 29.5s (3 recycles)
+2025-01-06 15:04:34,677 alphafold2_ptm_model_2_seed_000 recycle=0 pLDDT=95.2 pTM=0.764
+2025-01-06 15:04:34,929 alphafold2_ptm_model_2_seed_000 recycle=1 pLDDT=95.6 pTM=0.765 tol=0.0457
+2025-01-06 15:04:35,179 alphafold2_ptm_model_2_seed_000 recycle=2 pLDDT=95.4 pTM=0.765 tol=0.0302
+2025-01-06 15:04:35,430 alphafold2_ptm_model_2_seed_000 recycle=3 pLDDT=95.4 pTM=0.765 tol=0.0131
+2025-01-06 15:04:35,430 alphafold2_ptm_model_2_seed_000 took 1.0s (3 recycles)
+2025-01-06 15:04:35,443 reranking models by 'plddt' metric
+2025-01-06 15:04:35,444 rank_001_alphafold2_ptm_model_1_seed_000 pLDDT=95.6 pTM=0.763
+2025-01-06 15:04:35,446 rank_002_alphafold2_ptm_model_2_seed_000 pLDDT=95.4 pTM=0.765
+2025-01-06 15:04:35,448 returning backbones and angles for sidechain prediction for best model: model rank_001_alphafold2_ptm_model_1_seed_000
+2025-01-06 15:04:35,449 Saving sidechain rawdata data for gb3 : gb3_norewe/gb3_rank_001_sc_*.npy
+2025-01-06 15:04:35,460 Running sidechain populations prediction for gb3
+2025-01-06 15:04:35,477 Predicting sidechain populations for gb3 chi=chi1
+2025-01-06 15:04:44,610 Predicting sidechain populations for gb3 chi=chi2
+2025-01-06 15:04:51,364 Saving sidechain populations data for gb3: gb3_norewe/gb3_rank_001_sc_pops_*.npz
+2025-01-06 15:04:51,382 Creating PDB ensemble with sidechain predictions for gb3
+2025-01-06 15:04:52,593 Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+2025-01-06 15:08:44,844 Ensemble creation complete -  100 structures - acceptance rate: 100.0% - total_tentatives: 100
+2025-01-06 15:08:45,262 Done

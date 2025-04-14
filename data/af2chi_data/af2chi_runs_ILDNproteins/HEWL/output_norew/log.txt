@@ -1,0 +1,28 @@
+2025-01-06 12:05:02,560 Running colabfold 1.5.5 (fdf3b235b88746681c46ea12bcded76ecf8e1f76)
+2025-01-06 12:05:05,122 Running on GPU
+2025-01-06 12:05:05,526 Found 5 citations for tools or databases
+2025-01-06 12:05:05,696 Query 1/1: hewl (length 129)
+2025-01-06 12:05:05,977 Sequence 0 found templates: ['6lyt_A', '6lyt_A']
+2025-01-06 12:05:34,832 alphafold2_ptm_model_1_seed_000 recycle=0 pLDDT=97.3 pTM=0.885
+2025-01-06 12:05:50,372 alphafold2_ptm_model_1_seed_000 recycle=1 pLDDT=97.6 pTM=0.892 tol=0.0616
+2025-01-06 12:05:50,999 alphafold2_ptm_model_1_seed_000 recycle=2 pLDDT=97.6 pTM=0.891 tol=0.033
+2025-01-06 12:05:51,625 alphafold2_ptm_model_1_seed_000 recycle=3 pLDDT=97.6 pTM=0.891 tol=0.0284
+2025-01-06 12:05:51,626 alphafold2_ptm_model_1_seed_000 took 39.6s (3 recycles)
+2025-01-06 12:05:52,299 alphafold2_ptm_model_2_seed_000 recycle=0 pLDDT=97.7 pTM=0.898
+2025-01-06 12:05:52,935 alphafold2_ptm_model_2_seed_000 recycle=1 pLDDT=98 pTM=0.902 tol=0.0654
+2025-01-06 12:05:53,571 alphafold2_ptm_model_2_seed_000 recycle=2 pLDDT=97.9 pTM=0.902 tol=0.0165
+2025-01-06 12:05:54,201 alphafold2_ptm_model_2_seed_000 recycle=3 pLDDT=97.9 pTM=0.901 tol=0.0101
+2025-01-06 12:05:54,201 alphafold2_ptm_model_2_seed_000 took 2.5s (3 recycles)
+2025-01-06 12:05:54,229 reranking models by 'plddt' metric
+2025-01-06 12:05:54,229 rank_001_alphafold2_ptm_model_2_seed_000 pLDDT=97.9 pTM=0.901
+2025-01-06 12:05:54,231 rank_002_alphafold2_ptm_model_1_seed_000 pLDDT=97.6 pTM=0.891
+2025-01-06 12:05:54,233 returning backbones and angles for sidechain prediction for best model: model rank_001_alphafold2_ptm_model_2_seed_000
+2025-01-06 12:05:54,234 Saving sidechain rawdata data for hewl : hewl_norewe/hewl_rank_001_sc_*.npy
+2025-01-06 12:05:54,242 Running sidechain populations prediction for hewl
+2025-01-06 12:05:54,249 Predicting sidechain populations for hewl chi=chi1
+2025-01-06 12:06:15,284 Predicting sidechain populations for hewl chi=chi2
+2025-01-06 12:06:26,662 Saving sidechain populations data for hewl: hewl_norewe/hewl_rank_001_sc_pops_*.npz
+2025-01-06 12:06:26,687 Creating PDB ensemble with sidechain predictions for hewl
+2025-01-06 12:06:28,222 Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+2025-01-06 12:13:47,000 Ensemble creation complete -  100 structures - acceptance rate: 100.0% - total_tentatives: 100
+2025-01-06 12:13:47,849 Done

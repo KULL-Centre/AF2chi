@@ -1,0 +1,48 @@
+2025-02-27 11:12:51,996 Running colabfold 1.5.5 (fdf3b235b88746681c46ea12bcded76ecf8e1f76)
+2025-02-27 11:13:40,452 Running on GPU
+2025-02-27 11:13:45,264 Found 5 citations for tools or databases
+2025-02-27 11:13:45,265 Query 1/1: ubq (length 76)
+2025-02-27 11:13:53,535 Setting max_seq=512, max_extra_seq=5120
+2025-02-27 11:14:17,518 alphafold2_ptm_model_1_seed_000 recycle=0 pLDDT=94.1 pTM=0.804
+2025-02-27 11:14:29,011 alphafold2_ptm_model_1_seed_000 recycle=1 pLDDT=94.9 pTM=0.819 tol=0.0767
+2025-02-27 11:14:32,012 alphafold2_ptm_model_1_seed_000 recycle=2 pLDDT=95.2 pTM=0.825 tol=0.0405
+2025-02-27 11:14:35,011 alphafold2_ptm_model_1_seed_000 recycle=3 pLDDT=95.2 pTM=0.823 tol=0.0349
+2025-02-27 11:14:35,012 alphafold2_ptm_model_1_seed_000 took 34.5s (3 recycles)
+2025-02-27 11:14:38,036 alphafold2_ptm_model_2_seed_000 recycle=0 pLDDT=94.2 pTM=0.811
+2025-02-27 11:14:41,027 alphafold2_ptm_model_2_seed_000 recycle=1 pLDDT=95.2 pTM=0.828 tol=0.0977
+2025-02-27 11:14:44,024 alphafold2_ptm_model_2_seed_000 recycle=2 pLDDT=95.2 pTM=0.83 tol=0.0358
+2025-02-27 11:14:47,023 alphafold2_ptm_model_2_seed_000 recycle=3 pLDDT=95.6 pTM=0.834 tol=0.0325
+2025-02-27 11:14:47,023 alphafold2_ptm_model_2_seed_000 took 12.0s (3 recycles)
+2025-02-27 11:14:50,046 alphafold2_ptm_model_3_seed_000 recycle=0 pLDDT=95 pTM=0.824
+2025-02-27 11:14:53,053 alphafold2_ptm_model_3_seed_000 recycle=1 pLDDT=95.2 pTM=0.829 tol=0.0793
+2025-02-27 11:14:56,054 alphafold2_ptm_model_3_seed_000 recycle=2 pLDDT=95.3 pTM=0.832 tol=0.037
+2025-02-27 11:14:59,057 alphafold2_ptm_model_3_seed_000 recycle=3 pLDDT=95.6 pTM=0.839 tol=0.0307
+2025-02-27 11:14:59,058 alphafold2_ptm_model_3_seed_000 took 12.0s (3 recycles)
+2025-02-27 11:15:02,084 alphafold2_ptm_model_4_seed_000 recycle=0 pLDDT=95.8 pTM=0.839
+2025-02-27 11:15:05,083 alphafold2_ptm_model_4_seed_000 recycle=1 pLDDT=95.9 pTM=0.841 tol=0.0809
+2025-02-27 11:15:08,081 alphafold2_ptm_model_4_seed_000 recycle=2 pLDDT=96 pTM=0.843 tol=0.0391
+2025-02-27 11:15:11,079 alphafold2_ptm_model_4_seed_000 recycle=3 pLDDT=96 pTM=0.843 tol=0.03
+2025-02-27 11:15:11,079 alphafold2_ptm_model_4_seed_000 took 12.0s (3 recycles)
+2025-02-27 11:15:14,098 alphafold2_ptm_model_5_seed_000 recycle=0 pLDDT=92.5 pTM=0.779
+2025-02-27 11:15:17,096 alphafold2_ptm_model_5_seed_000 recycle=1 pLDDT=93.9 pTM=0.804 tol=0.0881
+2025-02-27 11:15:20,095 alphafold2_ptm_model_5_seed_000 recycle=2 pLDDT=94.3 pTM=0.812 tol=0.0326
+2025-02-27 11:15:23,095 alphafold2_ptm_model_5_seed_000 recycle=3 pLDDT=94.6 pTM=0.817 tol=0.0271
+2025-02-27 11:15:23,095 alphafold2_ptm_model_5_seed_000 took 12.0s (3 recycles)
+2025-02-27 11:15:23,115 reranking models by 'plddt' metric
+2025-02-27 11:15:23,115 rank_001_alphafold2_ptm_model_4_seed_000 pLDDT=96 pTM=0.843
+2025-02-27 11:15:23,118 rank_002_alphafold2_ptm_model_3_seed_000 pLDDT=95.6 pTM=0.839
+2025-02-27 11:15:23,121 rank_003_alphafold2_ptm_model_2_seed_000 pLDDT=95.6 pTM=0.834
+2025-02-27 11:15:23,125 rank_004_alphafold2_ptm_model_1_seed_000 pLDDT=95.2 pTM=0.823
+2025-02-27 11:15:23,129 rank_005_alphafold2_ptm_model_5_seed_000 pLDDT=94.6 pTM=0.817
+2025-02-27 11:15:23,131 returning backbones and angles for sidechain prediction for best model: model rank_001_alphafold2_ptm_model_4_seed_000
+2025-02-27 11:15:23,131 Saving sidechain rawdata data for ubq : af2chi_ubq_full_msa_run/ubq_rank_001_sc_*.npy
+2025-02-27 11:15:23,144 Running sidechain populations prediction for ubq
+2025-02-27 11:15:23,200 Predicting sidechain populations for ubq chi=chi1
+2025-02-27 11:15:35,144 Predicting sidechain populations for ubq chi=chi2
+2025-02-27 11:15:44,087 Predicting sidechain populations for ubq chi=chi3
+2025-02-27 11:15:48,440 Predicting sidechain populations for ubq chi=chi4
+2025-02-27 11:15:53,932 Saving sidechain populations data for ubq: af2chi_ubq_full_msa_run/ubq_rank_001_sc_pops_*.npz
+2025-02-27 11:15:53,957 Creating PDB ensemble with sidechain predictions for ubq
+2025-02-27 11:15:55,442 Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+2025-02-27 11:20:46,875 Ensemble creation complete -  100 structures - acceptance rate: 100.0% - total_tentatives: 100
+2025-02-27 11:20:47,898 Done

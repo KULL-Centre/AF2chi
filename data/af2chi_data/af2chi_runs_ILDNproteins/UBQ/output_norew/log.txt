@@ -1,0 +1,28 @@
+2025-01-06 11:58:12,645 Running colabfold 1.5.5 (fdf3b235b88746681c46ea12bcded76ecf8e1f76)
+2025-01-06 11:58:15,379 Running on GPU
+2025-01-06 11:58:15,780 Found 5 citations for tools or databases
+2025-01-06 11:58:15,841 Query 1/1: ubq (length 76)
+2025-01-06 11:58:16,063 Sequence 0 found templates: ['1ubi_A']
+2025-01-06 11:58:41,322 alphafold2_ptm_model_1_seed_000 recycle=0 pLDDT=93.2 pTM=0.785
+2025-01-06 11:58:54,039 alphafold2_ptm_model_1_seed_000 recycle=1 pLDDT=93.8 pTM=0.793 tol=0.0963
+2025-01-06 11:58:54,391 alphafold2_ptm_model_1_seed_000 recycle=2 pLDDT=94 pTM=0.797 tol=0.0381
+2025-01-06 11:58:54,742 alphafold2_ptm_model_1_seed_000 recycle=3 pLDDT=94.1 pTM=0.797 tol=0.0223
+2025-01-06 11:58:54,742 alphafold2_ptm_model_1_seed_000 took 32.6s (3 recycles)
+2025-01-06 11:58:55,122 alphafold2_ptm_model_2_seed_000 recycle=0 pLDDT=94.5 pTM=0.813
+2025-01-06 11:58:55,474 alphafold2_ptm_model_2_seed_000 recycle=1 pLDDT=95.1 pTM=0.822 tol=0.0589
+2025-01-06 11:58:55,828 alphafold2_ptm_model_2_seed_000 recycle=2 pLDDT=95.1 pTM=0.822 tol=0.0333
+2025-01-06 11:58:56,182 alphafold2_ptm_model_2_seed_000 recycle=3 pLDDT=95.1 pTM=0.822 tol=0.0526
+2025-01-06 11:58:56,182 alphafold2_ptm_model_2_seed_000 took 1.4s (3 recycles)
+2025-01-06 11:58:56,202 reranking models by 'plddt' metric
+2025-01-06 11:58:56,202 rank_001_alphafold2_ptm_model_2_seed_000 pLDDT=95.1 pTM=0.822
+2025-01-06 11:58:56,206 rank_002_alphafold2_ptm_model_1_seed_000 pLDDT=94.1 pTM=0.797
+2025-01-06 11:58:56,211 returning backbones and angles for sidechain prediction for best model: model rank_001_alphafold2_ptm_model_2_seed_000
+2025-01-06 11:58:56,211 Saving sidechain rawdata data for ubq : ubq_norew/ubq_rank_001_sc_*.npy
+2025-01-06 11:58:56,220 Running sidechain populations prediction for ubq
+2025-01-06 11:58:56,227 Predicting sidechain populations for ubq chi=chi1
+2025-01-06 11:59:08,365 Predicting sidechain populations for ubq chi=chi2
+2025-01-06 11:59:18,140 Saving sidechain populations data for ubq: ubq_norew/ubq_rank_001_sc_pops_*.npz
+2025-01-06 11:59:18,160 Creating PDB ensemble with sidechain predictions for ubq
+2025-01-06 11:59:19,500 Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+2025-01-06 12:04:00,204 Ensemble creation complete -  100 structures - acceptance rate: 100.0% - total_tentatives: 100
+2025-01-06 12:04:01,116 Done

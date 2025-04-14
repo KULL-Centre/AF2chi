@@ -1,0 +1,31 @@
+2024-10-08 13:00:27,472 Running colabfold 1.5.1 (b4c1bc7cf89bc0bd577c5a9d3c1f7bedc1f74152)
+2024-10-08 13:00:30,650 Running on GPU
+2024-10-08 13:00:30,954 Found 3 citations for tools or databases
+2024-10-08 13:00:31,028 Query 1/1: 1UBI_1_Chain_A_UBIQUITIN_Homo_sapiens__9606_ (length 76)
+2024-10-08 13:00:36,256 Sequence 0 found templates: ['1ubi_A', '1ubi_A']
+2024-10-08 13:00:36,261 Padding length to 76
+2024-10-08 13:00:36,261 Setting max_seq=5, max_extra_seq=1
+2024-10-08 13:00:56,853 alphafold2_ptm_model_1_seed_000 recycle=0 pLDDT=93.3 pTM=0.785
+2024-10-08 13:00:57,121 alphafold2_ptm_model_1_seed_000 recycle=1 pLDDT=93.8 pTM=0.793
+2024-10-08 13:00:57,385 alphafold2_ptm_model_1_seed_000 recycle=2 pLDDT=94 pTM=0.797
+2024-10-08 13:00:57,649 alphafold2_ptm_model_1_seed_000 recycle=3 pLDDT=94 pTM=0.797
+2024-10-08 13:00:57,652 alphafold2_ptm_model_1_seed_000 took 16.4s (3 recycles)
+2024-10-08 13:00:59,153 alphafold2_ptm_model_2_seed_000 recycle=0 pLDDT=94.5 pTM=0.813
+2024-10-08 13:00:59,424 alphafold2_ptm_model_2_seed_000 recycle=1 pLDDT=95 pTM=0.821
+2024-10-08 13:00:59,690 alphafold2_ptm_model_2_seed_000 recycle=2 pLDDT=95.1 pTM=0.822
+2024-10-08 13:00:59,962 alphafold2_ptm_model_2_seed_000 recycle=3 pLDDT=95 pTM=0.821
+2024-10-08 13:00:59,965 alphafold2_ptm_model_2_seed_000 took 1.1s (3 recycles)
+2024-10-08 13:00:59,995 reranking models by 'plddt' metric
+2024-10-08 13:00:59,995 rank_001_alphafold2_ptm_model_2_seed_000 pLDDT=95 pTM=0.821
+2024-10-08 13:01:00,001 rank_002_alphafold2_ptm_model_1_seed_000 pLDDT=94 pTM=0.797
+2024-10-08 13:01:00,006 returning backbones and angles for sidechain prediction for model: rank_001_alphafold2_ptm_model_2_seed_000
+2024-10-08 13:01:00,006 Saving sidechain rawdata data for 1UBI_1_Chain_A_UBIQUITIN_Homo_sapiens__9606_ : output_0.50/1UBI_1_Chain_A_UBIQUITIN_Homo_sapiens__9606__rank_001_sc_*.npy
+2024-10-08 13:01:00,029 Running sidechain populations prediction for 1UBI_1_Chain_A_UBIQUITIN_Homo_sapiens__9606_
+2024-10-08 13:01:00,035 Predicting sidechain populations for 1UBI_1_Chain_A_UBIQUITIN_Homo_sapiens__9606_ chi=chi1
+2024-10-08 13:01:14,839 Predicting sidechain populations for 1UBI_1_Chain_A_UBIQUITIN_Homo_sapiens__9606_ chi=chi2
+2024-10-08 13:01:25,034 Predicting sidechain populations for 1UBI_1_Chain_A_UBIQUITIN_Homo_sapiens__9606_ chi=chi3
+2024-10-08 13:01:29,501 Predicting sidechain populations for 1UBI_1_Chain_A_UBIQUITIN_Homo_sapiens__9606_ chi=chi4
+2024-10-08 13:01:35,924 Saving sidechain populations data for 1UBI_1_Chain_A_UBIQUITIN_Homo_sapiens__9606_: output_0.50/1UBI_1_Chain_A_UBIQUITIN_Homo_sapiens__9606__rank_001_sc_pops_*.npz
+2024-10-08 13:01:35,955 Creating PDB ensemble with sidechain predictions for 1UBI_1_Chain_A_UBIQUITIN_Homo_sapiens__9606_
+2024-10-08 13:12:33,542 Creation complete
+2024-10-08 13:12:34,736 Done

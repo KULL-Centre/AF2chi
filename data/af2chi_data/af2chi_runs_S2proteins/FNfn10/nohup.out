@@ -1,0 +1,246 @@
+Running af2chi with template 1fnf.cif and sequence 1fnf.fasta
+2024-12-23 14:23:21.384998: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:485] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-12-23 14:23:21.398447: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:8454] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-12-23 14:23:21.402543: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1452] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-12-23 14:23:22.364659: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+2024-12-23 14:23:20,848 Running colabfold 1.5.5 (fdf3b235b88746681c46ea12bcded76ecf8e1f76)
+2024-12-23 14:23:22,911 Running on GPU
+2024-12-23 14:23:23,337 Found 5 citations for tools or databases
+2024-12-23 14:23:23,350 Adding missing field revision_date to template/1fnf.cif. Backing up original file to template/1fnf.cif.bak.
+2024-12-23 14:23:23,391 Query 1/1: pdb_1fnf (length 94)
+2024-12-23 14:23:23,624 Sequence 0 found templates: ['1fnf_A']
+2024-12-23 14:23:54,624 alphafold2_ptm_model_1_seed_000 recycle=0 pLDDT=95.2 pTM=0.842
+2024-12-23 14:24:09,517 alphafold2_ptm_model_1_seed_000 recycle=1 pLDDT=94.6 pTM=0.838 tol=0.0983
+2024-12-23 14:24:09,959 alphafold2_ptm_model_1_seed_000 recycle=2 pLDDT=94.3 pTM=0.834 tol=0.0656
+2024-12-23 14:24:10,401 alphafold2_ptm_model_1_seed_000 recycle=3 pLDDT=94.4 pTM=0.838 tol=0.0338
+2024-12-23 14:24:10,401 alphafold2_ptm_model_1_seed_000 took 39.6s (3 recycles)
+dict_keys(['final_affines', 'final_angles', 'final_atom_mask', 'final_atom_positions'])
+2024-12-23 14:24:10,881 alphafold2_ptm_model_2_seed_000 recycle=0 pLDDT=95.8 pTM=0.861
+2024-12-23 14:24:11,327 alphafold2_ptm_model_2_seed_000 recycle=1 pLDDT=95.4 pTM=0.863 tol=0.09
+2024-12-23 14:24:11,775 alphafold2_ptm_model_2_seed_000 recycle=2 pLDDT=95.3 pTM=0.862 tol=0.0309
+2024-12-23 14:24:12,220 alphafold2_ptm_model_2_seed_000 recycle=3 pLDDT=95.3 pTM=0.863 tol=0.0199
+2024-12-23 14:24:12,221 alphafold2_ptm_model_2_seed_000 took 1.8s (3 recycles)
+dict_keys(['final_affines', 'final_angles', 'final_atom_mask', 'final_atom_positions'])
+2024-12-23 14:24:12,242 reranking models by 'plddt' metric
+2024-12-23 14:24:12,242 rank_001_alphafold2_ptm_model_2_seed_000 pLDDT=95.3 pTM=0.863
+2024-12-23 14:24:12,245 rank_002_alphafold2_ptm_model_1_seed_000 pLDDT=94.4 pTM=0.838
+2024-12-23 14:24:12,246 returning backbones and angles for sidechain prediction for best model: model rank_001_alphafold2_ptm_model_2_seed_000
+2024-12-23 14:24:12,247 Saving sidechain rawdata data for pdb_1fnf : output/pdb_1fnf_rank_001_sc_*.npy
+2024-12-23 14:24:12,255 Running sidechain populations prediction for pdb_1fnf
+2024-12-23 14:24:12,262 Predicting sidechain populations for pdb_1fnf chi=chi1
+ chi_sel: chi1, meaning layer: 3
+/maps/projects/prism/people/bqm193/env/colabfold-sc/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  self.pid = os.fork()
+2024-12-23 14:24:29,588 Predicting sidechain populations for pdb_1fnf chi=chi2
+ chi_sel: chi2, meaning layer: 4
+2024-12-23 14:24:40,107 Predicting sidechain populations for pdb_1fnf chi=chi3
+ chi_sel: chi3, meaning layer: 5
+2024-12-23 14:24:44,991 Predicting sidechain populations for pdb_1fnf chi=chi4
+ chi_sel: chi4, meaning layer: 6
+2024-12-23 14:24:51,182 Saving sidechain populations data for pdb_1fnf: output/pdb_1fnf_rank_001_sc_pops_*.npz
+2024-12-23 14:24:51,202 Creating PDB ensemble with sidechain predictions for pdb_1fnf
+non-relaxed structure clashes: 22
+2024-12-23 14:24:52,806 Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 10
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 1
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 31
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 27
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 4
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 0
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 4
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 12
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 8
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 5
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 4
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 4
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 15
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 13
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 0
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 2
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 16
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 9
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 6
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 1
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 5
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 4
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 18
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 0
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 17
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 4
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 18
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 15
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 0
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 20
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 6
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 5
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 16
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 12
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 3
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 4
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 0
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 5
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 13
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 8
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 0
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 0
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 4
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 6
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 1
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 12
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 5
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 5
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 5
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 8
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 12
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 17
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 21
+relaxed structure clashes: 21 and rsmd: 0.023748977204100078, removing structure
+non-relaxed structure clashes: 5
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 2
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 2
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 1
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 7
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 4
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 19
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 1
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 11
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 9
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 8
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 8
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 20
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 10
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 3
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 8
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 1
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 4
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 20
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 4
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 11
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 1
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 16
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 0
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 8
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 0
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 5
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 2
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 3
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 3
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 1
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 3
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 10
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 2
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 4
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 0
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 4
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 5
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 6
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 7
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 22
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 12
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 10
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 7
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 0
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 14
+relaxed structure: no clashes and rmsd under threshold, adding structure
+non-relaxed structure clashes: 3
+relaxed structure: no clashes and rmsd under threshold, adding structure
+2024-12-23 14:31:24,508 Ensemble creation complete -  100 structures - acceptance rate: 99.00990099009901% - total_tentatives: 101
+2024-12-23 14:31:24,949 Done

@@ -1,0 +1,31 @@
+2024-12-23 14:23:07,479 Running colabfold 1.5.5 (fdf3b235b88746681c46ea12bcded76ecf8e1f76)
+2024-12-23 14:23:10,090 Running on GPU
+2024-12-23 14:23:10,536 Found 5 citations for tools or databases
+2024-12-23 14:23:10,553 Adding missing field revision_date to template/2a3d.cif. Backing up original file to template/2a3d.cif.bak.
+2024-12-23 14:23:10,600 Query 1/1: pdb_2a3d (length 73)
+2024-12-23 14:23:10,819 Sequence 0 found templates: ['2a3d_A', '2a3d_A']
+2024-12-23 14:23:40,780 alphafold2_ptm_model_1_seed_000 recycle=0 pLDDT=82 pTM=0.613
+2024-12-23 14:23:57,680 alphafold2_ptm_model_1_seed_000 recycle=1 pLDDT=83.7 pTM=0.63 tol=0.356
+2024-12-23 14:23:57,979 alphafold2_ptm_model_1_seed_000 recycle=2 pLDDT=83.8 pTM=0.634 tol=0.102
+2024-12-23 14:23:58,280 alphafold2_ptm_model_1_seed_000 recycle=3 pLDDT=84.5 pTM=0.646 tol=0.0741
+2024-12-23 14:23:58,280 alphafold2_ptm_model_1_seed_000 took 40.7s (3 recycles)
+2024-12-23 14:23:58,607 alphafold2_ptm_model_2_seed_000 recycle=0 pLDDT=82.9 pTM=0.655
+2024-12-23 14:23:58,905 alphafold2_ptm_model_2_seed_000 recycle=1 pLDDT=82.9 pTM=0.657 tol=0.435
+2024-12-23 14:23:59,204 alphafold2_ptm_model_2_seed_000 recycle=2 pLDDT=83.4 pTM=0.669 tol=0.0734
+2024-12-23 14:23:59,502 alphafold2_ptm_model_2_seed_000 recycle=3 pLDDT=83.8 pTM=0.671 tol=0.0339
+2024-12-23 14:23:59,502 alphafold2_ptm_model_2_seed_000 took 1.2s (3 recycles)
+2024-12-23 14:23:59,519 reranking models by 'plddt' metric
+2024-12-23 14:23:59,520 rank_001_alphafold2_ptm_model_1_seed_000 pLDDT=84.5 pTM=0.646
+2024-12-23 14:23:59,522 rank_002_alphafold2_ptm_model_2_seed_000 pLDDT=83.8 pTM=0.671
+2024-12-23 14:23:59,524 returning backbones and angles for sidechain prediction for best model: model rank_001_alphafold2_ptm_model_1_seed_000
+2024-12-23 14:23:59,524 Saving sidechain rawdata data for pdb_2a3d : output/pdb_2a3d_rank_001_sc_*.npy
+2024-12-23 14:23:59,535 Running sidechain populations prediction for pdb_2a3d
+2024-12-23 14:23:59,542 Predicting sidechain populations for pdb_2a3d chi=chi1
+2024-12-23 14:24:11,497 Predicting sidechain populations for pdb_2a3d chi=chi2
+2024-12-23 14:24:21,167 Predicting sidechain populations for pdb_2a3d chi=chi3
+2024-12-23 14:24:28,120 Predicting sidechain populations for pdb_2a3d chi=chi4
+2024-12-23 14:24:35,773 Saving sidechain populations data for pdb_2a3d: output/pdb_2a3d_rank_001_sc_pops_*.npz
+2024-12-23 14:24:35,817 Creating PDB ensemble with sidechain predictions for pdb_2a3d
+2024-12-23 14:24:37,679 Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+2024-12-23 14:30:32,628 Ensemble creation complete -  100 structures - acceptance rate: 100.0% - total_tentatives: 100
+2024-12-23 14:30:33,088 Done

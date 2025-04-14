@@ -1,0 +1,31 @@
+2025-01-16 13:10:50,945 Running colabfold 1.5.5 (fdf3b235b88746681c46ea12bcded76ecf8e1f76)
+2025-01-16 13:10:56,021 Running on GPU
+2025-01-16 13:10:56,661 Found 5 citations for tools or databases
+2025-01-16 13:10:56,687 Adding missing field revision_date to template/2hnx.cif. Backing up original file to template/2hnx.cif.bak.
+2025-01-16 13:10:56,749 Query 1/1: sp_P15090_FABP4_HUMAN_Fatty_acid-binding_protein__adipocyte_OS_Homo_sapiens_OX_9606_GN_FABP4_PE_1_SV_3 (length 132)
+2025-01-16 13:10:57,039 Sequence 0 found templates: ['2hnx_A']
+2025-01-16 13:11:25,235 alphafold2_ptm_model_1_seed_000 recycle=0 pLDDT=96.2 pTM=0.867
+2025-01-16 13:11:37,948 alphafold2_ptm_model_1_seed_000 recycle=1 pLDDT=96.4 pTM=0.875 tol=0.068
+2025-01-16 13:11:38,637 alphafold2_ptm_model_1_seed_000 recycle=2 pLDDT=96.3 pTM=0.873 tol=0.0445
+2025-01-16 13:11:39,327 alphafold2_ptm_model_1_seed_000 recycle=3 pLDDT=96.4 pTM=0.875 tol=0.026
+2025-01-16 13:11:39,327 alphafold2_ptm_model_1_seed_000 took 33.5s (3 recycles)
+2025-01-16 13:11:40,056 alphafold2_ptm_model_2_seed_000 recycle=0 pLDDT=96.1 pTM=0.873
+2025-01-16 13:11:40,751 alphafold2_ptm_model_2_seed_000 recycle=1 pLDDT=96.6 pTM=0.884 tol=0.0487
+2025-01-16 13:11:41,444 alphafold2_ptm_model_2_seed_000 recycle=2 pLDDT=96.7 pTM=0.886 tol=0.0195
+2025-01-16 13:11:42,136 alphafold2_ptm_model_2_seed_000 recycle=3 pLDDT=96.7 pTM=0.886 tol=0.0128
+2025-01-16 13:11:42,136 alphafold2_ptm_model_2_seed_000 took 2.8s (3 recycles)
+2025-01-16 13:11:42,167 reranking models by 'plddt' metric
+2025-01-16 13:11:42,167 rank_001_alphafold2_ptm_model_2_seed_000 pLDDT=96.7 pTM=0.886
+2025-01-16 13:11:42,170 rank_002_alphafold2_ptm_model_1_seed_000 pLDDT=96.4 pTM=0.875
+2025-01-16 13:11:42,173 returning backbones and angles for sidechain prediction for best model: model rank_001_alphafold2_ptm_model_2_seed_000
+2025-01-16 13:11:42,174 Saving sidechain rawdata data for sp_P15090_FABP4_HUMAN_Fatty_acid-binding_protein__adipocyte_OS_Homo_sapiens_OX_9606_GN_FABP4_PE_1_SV_3 : output/sp_P15090_FABP4_HUMAN_Fatty_acid-binding_protein__adipocyte_OS_Homo_sapiens_OX_9606_GN_FABP4_PE_1_SV_3_rank_001_sc_*.npy
+2025-01-16 13:11:42,193 Running sidechain populations prediction for sp_P15090_FABP4_HUMAN_Fatty_acid-binding_protein__adipocyte_OS_Homo_sapiens_OX_9606_GN_FABP4_PE_1_SV_3
+2025-01-16 13:11:42,211 Predicting sidechain populations for sp_P15090_FABP4_HUMAN_Fatty_acid-binding_protein__adipocyte_OS_Homo_sapiens_OX_9606_GN_FABP4_PE_1_SV_3 chi=chi1
+2025-01-16 13:12:02,422 Predicting sidechain populations for sp_P15090_FABP4_HUMAN_Fatty_acid-binding_protein__adipocyte_OS_Homo_sapiens_OX_9606_GN_FABP4_PE_1_SV_3 chi=chi2
+2025-01-16 13:12:13,895 Predicting sidechain populations for sp_P15090_FABP4_HUMAN_Fatty_acid-binding_protein__adipocyte_OS_Homo_sapiens_OX_9606_GN_FABP4_PE_1_SV_3 chi=chi3
+2025-01-16 13:12:21,261 Predicting sidechain populations for sp_P15090_FABP4_HUMAN_Fatty_acid-binding_protein__adipocyte_OS_Homo_sapiens_OX_9606_GN_FABP4_PE_1_SV_3 chi=chi4
+2025-01-16 13:12:27,242 Saving sidechain populations data for sp_P15090_FABP4_HUMAN_Fatty_acid-binding_protein__adipocyte_OS_Homo_sapiens_OX_9606_GN_FABP4_PE_1_SV_3: output/sp_P15090_FABP4_HUMAN_Fatty_acid-binding_protein__adipocyte_OS_Homo_sapiens_OX_9606_GN_FABP4_PE_1_SV_3_rank_001_sc_pops_*.npz
+2025-01-16 13:12:27,272 Creating PDB ensemble with sidechain predictions for sp_P15090_FABP4_HUMAN_Fatty_acid-binding_protein__adipocyte_OS_Homo_sapiens_OX_9606_GN_FABP4_PE_1_SV_3
+2025-01-16 13:12:28,884 Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+2025-01-16 13:19:40,714 Ensemble creation complete -  100 structures - acceptance rate: 100.0% - total_tentatives: 100
+2025-01-16 13:19:41,190 Done

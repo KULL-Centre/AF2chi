@@ -1,0 +1,28 @@
+2025-02-05 11:28:24,742 Running colabfold 1.5.5 (fdf3b235b88746681c46ea12bcded76ecf8e1f76)
+2025-02-05 11:28:26,860 Running on GPU
+2025-02-05 11:28:27,294 Found 5 citations for tools or databases
+2025-02-05 11:28:27,364 Query 1/1: 1TEN_1_Chain_A_TENASCIN_Homo_sapiens__9606_ (length 90)
+2025-02-05 11:28:27,614 Sequence 0 found templates: ['1ten_A']
+2025-02-05 11:29:02,132 alphafold2_ptm_model_1_seed_000 recycle=0 pLDDT=96.3 pTM=0.832
+2025-02-05 11:29:19,793 alphafold2_ptm_model_1_seed_000 recycle=1 pLDDT=96.4 pTM=0.835 tol=0.0584
+2025-02-05 11:29:20,212 alphafold2_ptm_model_1_seed_000 recycle=2 pLDDT=96.4 pTM=0.836 tol=0.055
+2025-02-05 11:29:20,638 alphafold2_ptm_model_1_seed_000 recycle=3 pLDDT=96.3 pTM=0.834 tol=0.0228
+2025-02-05 11:29:20,639 alphafold2_ptm_model_1_seed_000 took 46.1s (3 recycles)
+2025-02-05 11:29:21,103 alphafold2_ptm_model_2_seed_000 recycle=0 pLDDT=96.9 pTM=0.86
+2025-02-05 11:29:21,529 alphafold2_ptm_model_2_seed_000 recycle=1 pLDDT=96.9 pTM=0.861 tol=0.054
+2025-02-05 11:29:21,973 alphafold2_ptm_model_2_seed_000 recycle=2 pLDDT=96.9 pTM=0.862 tol=0.0238
+2025-02-05 11:29:22,400 alphafold2_ptm_model_2_seed_000 recycle=3 pLDDT=96.9 pTM=0.862 tol=0.0116
+2025-02-05 11:29:22,400 alphafold2_ptm_model_2_seed_000 took 1.7s (3 recycles)
+2025-02-05 11:29:22,427 reranking models by 'plddt' metric
+2025-02-05 11:29:22,427 rank_001_alphafold2_ptm_model_2_seed_000 pLDDT=96.9 pTM=0.862
+2025-02-05 11:29:22,429 rank_002_alphafold2_ptm_model_1_seed_000 pLDDT=96.3 pTM=0.834
+2025-02-05 11:29:22,431 returning backbones and angles for sidechain prediction for best model: model rank_001_alphafold2_ptm_model_2_seed_000
+2025-02-05 11:29:22,432 Saving sidechain rawdata data for 1TEN_1_Chain_A_TENASCIN_Homo_sapiens__9606_ : output/1TEN_1_Chain_A_TENASCIN_Homo_sapiens__9606__rank_001_sc_*.npy
+2025-02-05 11:29:22,440 Running sidechain populations prediction for 1TEN_1_Chain_A_TENASCIN_Homo_sapiens__9606_
+2025-02-05 11:29:22,451 Predicting sidechain populations for 1TEN_1_Chain_A_TENASCIN_Homo_sapiens__9606_ chi=chi1
+2025-02-05 11:29:42,126 Predicting sidechain populations for 1TEN_1_Chain_A_TENASCIN_Homo_sapiens__9606_ chi=chi2
+2025-02-05 11:29:52,011 Saving sidechain populations data for 1TEN_1_Chain_A_TENASCIN_Homo_sapiens__9606_: output/1TEN_1_Chain_A_TENASCIN_Homo_sapiens__9606__rank_001_sc_pops_*.npz
+2025-02-05 11:29:52,032 Creating PDB ensemble with sidechain predictions for 1TEN_1_Chain_A_TENASCIN_Homo_sapiens__9606_
+2025-02-05 11:29:53,593 Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+2025-02-05 11:38:00,697 Ensemble creation complete -  100 structures - acceptance rate: 100.0% - total_tentatives: 100
+2025-02-05 11:38:01,137 Done

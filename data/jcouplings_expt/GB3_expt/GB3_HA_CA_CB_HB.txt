@@ -1,0 +1,32 @@
+#
+# Scalar coupling data for GB3
+#
+# HA-CA-CB-HB couplings
+# Column 1: Residue number
+# Column 2: Four atoms that define the dihedral, each labelled by atom name
+# Column 3: Experimental scalar coupling
+# Column 4: Calculated scalar coupling from ff99SB simulation
+# Column 5: Calculated scalar coupling from ff99SB-ILDN simulation
+#
+3 HA_CA_CB_HB2 11.81 10.82 10.82
+3 HA_CA_CB_HB3 1.95 3.42 3.43
+8 HA_CA_CB_HB2 6.09 3.26 7.36
+8 HA_CA_CB_HB3 7.07 10.59 6.62
+22 HA_CA_CB_HB2 3.99 4.04 3.25
+22 HA_CA_CB_HB3 2.13 8.91 5.06
+30 HA_CA_CB_HB2 11.33 10.58 10.56
+30 HA_CA_CB_HB3 0.75 2.68 2.67
+35 HA_CA_CB_HB2 7.92 3.76 5.06
+35 HA_CA_CB_HB3 7.15 10.49 9.05
+37 HA_CA_CB_HB2 12.27 8.48 10.40
+37 HA_CA_CB_HB3 1.94 4.73 3.18
+40 HA_CA_CB_HB2 3.64 3.30 4.15
+40 HA_CA_CB_HB3 10.18 10.57 9.16
+43 HA_CA_CB_HB2 11.13 10.59 10.60
+43 HA_CA_CB_HB3 1.78 2.75 2.75
+45 HA_CA_CB_HB2 4.41 3.68 3.66
+45 HA_CA_CB_HB3 11.18 10.80 10.80
+46 HA_CA_CB_HB2 3.41 3.90 3.86
+46 HA_CA_CB_HB3 11.81 10.74 10.70
+47 HA_CA_CB_HB2 3.58 2.96 3.02
+47 HA_CA_CB_HB3 11.10 10.45 10.35 

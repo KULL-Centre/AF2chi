@@ -1,0 +1,29 @@
+2025-02-05 11:28:11,388 Running colabfold 1.5.5 (fdf3b235b88746681c46ea12bcded76ecf8e1f76)
+2025-02-05 11:28:13,603 Running on GPU
+2025-02-05 11:28:14,027 Found 5 citations for tools or databases
+2025-02-05 11:28:14,036 Adding missing field revision_date to template/1shf.cif. Backing up original file to template/1shf.cif.bak.
+2025-02-05 11:28:14,065 Query 1/1: pdb_1shf (length 59)
+2025-02-05 11:28:14,255 Sequence 0 found templates: ['1shf_A']
+2025-02-05 11:28:46,604 alphafold2_ptm_model_1_seed_000 recycle=0 pLDDT=96.4 pTM=0.775
+2025-02-05 11:29:04,773 alphafold2_ptm_model_1_seed_000 recycle=1 pLDDT=96.3 pTM=0.779 tol=0.0582
+2025-02-05 11:29:05,050 alphafold2_ptm_model_1_seed_000 recycle=2 pLDDT=96.1 pTM=0.777 tol=0.0438
+2025-02-05 11:29:05,326 alphafold2_ptm_model_1_seed_000 recycle=3 pLDDT=96 pTM=0.776 tol=0.0256
+2025-02-05 11:29:05,327 alphafold2_ptm_model_1_seed_000 took 44.5s (3 recycles)
+2025-02-05 11:29:05,651 alphafold2_ptm_model_2_seed_000 recycle=0 pLDDT=96.9 pTM=0.8
+2025-02-05 11:29:05,930 alphafold2_ptm_model_2_seed_000 recycle=1 pLDDT=96.8 pTM=0.804 tol=0.0672
+2025-02-05 11:29:06,208 alphafold2_ptm_model_2_seed_000 recycle=2 pLDDT=96.6 pTM=0.803 tol=0.0316
+2025-02-05 11:29:06,485 alphafold2_ptm_model_2_seed_000 recycle=3 pLDDT=96.5 pTM=0.802 tol=0.0183
+2025-02-05 11:29:06,486 alphafold2_ptm_model_2_seed_000 took 1.1s (3 recycles)
+2025-02-05 11:29:06,511 reranking models by 'plddt' metric
+2025-02-05 11:29:06,511 rank_001_alphafold2_ptm_model_2_seed_000 pLDDT=96.5 pTM=0.802
+2025-02-05 11:29:06,513 rank_002_alphafold2_ptm_model_1_seed_000 pLDDT=96 pTM=0.776
+2025-02-05 11:29:06,515 returning backbones and angles for sidechain prediction for best model: model rank_001_alphafold2_ptm_model_2_seed_000
+2025-02-05 11:29:06,516 Saving sidechain rawdata data for pdb_1shf : output/pdb_1shf_rank_001_sc_*.npy
+2025-02-05 11:29:06,525 Running sidechain populations prediction for pdb_1shf
+2025-02-05 11:29:06,537 Predicting sidechain populations for pdb_1shf chi=chi1
+2025-02-05 11:29:22,083 Predicting sidechain populations for pdb_1shf chi=chi2
+2025-02-05 11:29:33,221 Saving sidechain populations data for pdb_1shf: output/pdb_1shf_rank_001_sc_pops_*.npz
+2025-02-05 11:29:33,247 Creating PDB ensemble with sidechain predictions for pdb_1shf
+2025-02-05 11:29:35,423 Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+2025-02-05 11:38:22,445 Ensemble creation complete -  100 structures - acceptance rate: 88.49557522123894% - total_tentatives: 113
+2025-02-05 11:38:22,898 Done

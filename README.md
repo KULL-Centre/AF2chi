@@ -11,7 +11,7 @@ AF2χ is currently available for the Linux distribution of localColabFold, you c
 ## 🗂️	Repository layout
 
 The contents of this repository allow you to reproduce the results and figures that appear in the AF2χ manuscript.
-- `notebookes`: Folder containing all the Jupyter notebooks used to generate the analysis and figures in the manuscript.
+- `notebooks`: Folder containing all the Jupyter notebooks used to generate the analysis and figures in the manuscript.
 - `data`: Folder containing all the data necessary to run the analysis notebook and reproduce the manuscript results.
 - `figures`: collection of the output figures from the analysis notebooks.
 

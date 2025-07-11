@@ -15,7 +15,7 @@ The contents of this repository allow you to reproduce the results and figures t
 - `data`: Folder containing all the data necessary to run the analysis notebook and reproduce the manuscript results.
 - `figures`: collection of the output figures from the analysis notebooks.
 
-**N.B.: Due to their large size, the ATLAS MD predictions are not included in the current repository. The ATLAS MD data can be found here: [here](https://doi.org/10.17894/ucph.c874330e-4708-4911-90f7-726e0f3e1c16).**
+**N.B.: Due to their large size, the ATLAS MD predictions are not included in the current repository. The ATLAS MD data can be found [here](https://doi.org/10.17894/ucph.c874330e-4708-4911-90f7-726e0f3e1c16).**
 
 ---- 
 ## 📝 Reference this work

@@ -57,7 +57,7 @@ def rot_pop_rebinned_to_three(input_distr):
     
     return w
 
-top8000_prior=pd.read_csv('../extra_data/Top8000_rebinned_all_chi_distributions.csv')
+top8000_prior=pd.read_csv('Top8000_rebinned_all_chi_distributions.csv')
 
 subfolders = [ f.path for f in os.scandir('af2chi_runs/') if f.is_dir()]
 
